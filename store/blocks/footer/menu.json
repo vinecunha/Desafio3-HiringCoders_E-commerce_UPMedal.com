@@ -1,0 +1,100 @@
+{
+  "sticky-layout.stack-container#footer":{
+      "props": {
+          "position": "bottom"
+      },
+      "children":[
+          "sticky-layout#links"
+      ]
+  },
+  "sticky-layout#links": {
+      "children": ["vtex.menu@2.x:menu#linksfooter"]
+  },
+  "vtex.menu@2.x:menu#linksfooter":{
+      "children":[
+          "menu-item#entrar",
+          "menu-item#desafios",
+          "menu-item#loja",
+          "menu-item#suporte"
+      ],
+      "props":{
+          "blockClass": "footer"
+      }
+  },
+  "menu-item#entrar":{
+      "props": {
+          "id": "menu-item-entrar",
+          "itemProps": {
+              "type": "internal",
+              "href": "#",
+              "noFollow": false,
+              "tagTitle": "Entrar",
+              "text": "Entrar"
+          },
+          "iconProps": {
+              "id": "hpa-profile",
+              "size": 24,
+              "viewBox": "0 0 16 16",
+              "mutedClassName": "c-action-primary"
+          },
+          "blockClass": "footer"
+      }
+  },
+  "menu-item#desafios":{
+      "props": {
+          "id": "menu-item-desafios",
+          "itemProps": {
+              "type": "internal",
+              "href": "#",
+              "noFollow": false,
+              "tagTitle": "Desafios",
+              "text": "Desafios"
+          },
+          "iconProps": {
+              "id": "mpa-bookmark--filled",
+              "size": 24,
+              "viewBox": "0 0 16 16",
+              "mutedClassName": "c-action-primary"
+          },
+          "blockClass": "footer"
+      }
+  },
+  "menu-item#loja":{
+      "props": {
+          "id": "menu-item-loja",
+          "itemProps": {
+              "type": "internal",
+              "href": "#",
+              "noFollow": false,
+              "tagTitle": "Loja",
+              "text": "Loja"
+          },
+          "iconProps": {
+              "id": "hpa-cart",
+              "size": 24,
+              "viewBox": "0 0 16 16",
+              "mutedClassName": "c-action-primary"
+          },
+          "blockClass": "footer"
+      }
+  },
+  "menu-item#suporte":{
+      "props": {
+          "id": "menu-item-suporte",
+          "itemProps": {
+              "type": "external",
+              "href": "https://api.whatsapp.com/send?phone=5521979820741&text=Ol%C3%A1%2C%20gostaria%20de%20suporte%20sobre%20um%20produto.",
+              "noFollow": false,
+              "tagTitle": "Suporte",
+              "text": "Suporte"
+          },
+          "iconProps": {
+              "id": "hpa-telemarketing",
+              "size": 24,
+              "viewBox": "0 0 16 16",
+              "mutedClassName": "c-action-primary"
+          },
+          "blockClass": "footer"
+      }
+  }
+}

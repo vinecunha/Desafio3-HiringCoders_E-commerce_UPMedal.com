@@ -1,0 +1,50 @@
+.sliderLayoutContainer--principalImages{
+  width: 912px;
+  margin: 1rem auto;
+  display: flex;
+  flex-direction:row;
+  align-items: flex-end;
+  background-color: #303030;
+}
+.imageElement{
+  max-height: 273px;
+  margin-bottom: 4rem;
+  border-radius: 2rem;
+}
+.caretIcon{
+  width: .8rem;
+  color: #ccc;
+  padding: .1rem 1rem;
+  border-radius: .2rem;
+}
+.caretIcon:hover{
+  background-color: #424242;
+  transition: all .35s ease;
+}
+.caretIcon--shelf{
+  width: 1.5rem;
+  padding: .5rem;
+  border-radius: 50rem;
+  position: inherit;
+}
+.caretIcon--shelf:hover{
+  background-color: #424242;
+  transition: all .35s ease;
+}
+.paginationDot{
+  background-color: #ffffff33;
+}
+.paginationDot--isActive{
+  background-color: #59ff00;
+}
+.paginationDotsContainer{
+  margin: 0;
+}
+.sliderLayoutContainer--shelf{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: space-around;
+  margin-bottom: 50px;
+}

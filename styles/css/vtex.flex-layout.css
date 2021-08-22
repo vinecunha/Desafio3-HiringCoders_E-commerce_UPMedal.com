@@ -1,0 +1,23 @@
+.flexRowContent--main-header{
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  background-color: #212121;
+}
+.flexRowContent--selling-price{
+  padding: 1rem;
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.stretchChildrenWidth{
+  background-color: #303030;
+}
+
+.flexRowContent--text-drawer{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}

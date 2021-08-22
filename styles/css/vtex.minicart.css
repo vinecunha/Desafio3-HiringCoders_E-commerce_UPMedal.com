@@ -1,0 +1,10 @@
+.cartIcon{
+    color: #fff;
+}
+.openIconContainer:hover{
+    border-radius: 50rem;
+    background-color: #303030;
+}
+.closeIconButton{
+    color: #fff;
+}

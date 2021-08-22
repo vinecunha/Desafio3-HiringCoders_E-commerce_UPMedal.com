@@ -1,0 +1,106 @@
+{
+  "store.home": {
+    "blocks": [
+      "list-context.image-list#principal-images",
+      "__fold__", //carregar itens ao chegar na âncora apenas
+      "flex-layout.row#text-selector",
+      "flex-layout.row#shelf"
+    ]
+  },
+  "list-context.image-list#principal-images": {
+    "children": ["slider-layout#principal-images"],
+    "props": {
+      "preload": true,
+      "heigth": 273,
+      "images":[
+        {
+        "image": "../../../assets/images/BANNER-WOOD.png",
+        "mobileImage": "../../../assets/images/BANNER-WOOD.png"
+        },
+        {
+          "image": "../../../assets/images/BANNER-GRANDES-GUERREIROS.png",
+          "mobileImage": "../../../assets/images/BANNER-GRANDES-GUERREIROS.png"
+        }
+      ]
+    }
+  },
+  "slider-layout#principal-images": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "fullWidth":false,
+      "infinite": true,
+      "showNavigationArrows": "always",
+      "blockClass": "principalImages",
+      "autoplay":{
+        "timeout": 5000,
+        "stopOnHover": true
+      }
+    }/*,
+    "children":["image#1-home", "image#2-home"]
+  */}/*,
+  "image#1-home":{
+    "props":{
+      "src":"../../../assets/images/BANNER-WOOD.png",
+      "alt": "Banner Wood"
+    }
+  },
+  "image#2-home":{
+    "props":{
+      "src":"../../../assets/images/BANNER-GRANDES-GUERREIROS.png",
+      "alt":"Banner Grandes Guerreiros"
+    }
+  }*/,
+  "flex-layout.row#text-selector": {
+    "children": ["rich-text#open-selector"],
+    "props":{"blockClass": "text-selector"}
+  },
+  "rich-text#open-selector": {
+    "props":{ "text": "você está vendo provas de", "blockClass": "AreUSeeing" }
+  },
+  /*
+  "form-input.dropdown#corridaecaminhada",
+  "form-input.dropdown#bike",
+  "form-input.dropdown#natacao",
+  "form-input.dropdown#patins",
+  "form-input.dropdown#triathlon",
+  "form-input.dropdown#caiaque",
+  "form-input.dropdown#standup",
+  "form-input.dropdown#remo",
+  "form-input.dropdown#parapente",
+  "form-input.dropdown#asadelta",
+  "form-input.dropdown#duathlon",
+  "form-input.dropdown#canoahavaiana",
+  "form-input.dropdown#lol",
+  "form-input.dropdown#surfski",
+  "form-input.dropdown#paddleboard",
+  "form-input.dropdown#freefire"
+  */
+  "flex-layout.row#shelf": {
+    "children": ["list-context.product-list#demo1"]
+  },
+  "list-context.product-list#demo1": {
+    "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout#demo-products"],
+    "props": {
+      "orderBy": "OrderByTopSaleDESC",
+      "category": "20",
+      "hideUnavailableItems": true
+    }
+  },
+  "slider-layout#demo-products": {
+    "props": {
+      "itemsPerRow": {
+        "desktop": 2,
+        "tablet": 2,
+        "phone": 2
+      },
+      "infinite": true,
+      "fullWidth": true,
+      "blockClass": "shelf"
+    }
+  }
+}

@@ -1,0 +1,149 @@
+{
+  "vtex.menu@2.x:menu#category-menuheader": {
+    "props": {
+      "blockClass": "header"
+    },
+    "children": [
+      "menu-item#promo",
+      "menu-item#corinthians",
+      "menu-item#palmeiras",
+      "menu-item#signos",
+      "menu-item#divertidos",
+      "menu-item#7maravilhas",
+      "menu-item#guerreiros",
+      "menu-item#album1",
+      "menu-item#album2",
+      "menu-item#album3"
+    ]
+  },
+  "menu-item#promo": {
+    "props": {
+      "id": "menu-item-promo",
+      "itemProps": {
+        "type": "internal",
+        "href": "/{category}",
+        "tagTitle": "Promoções",
+        "text": "Promoções",
+        "blockClass": "menuheader",
+        "activeClassName": "activeheader"
+      }
+    }
+  },
+    "menu-item#corinthians": {
+    "props": {
+      "id": "menu-item-corinthians",
+      "itemProps": {
+        "type": "internal",
+        "href": "/{brandId}",
+        "tagTitle": "Corinthians",
+        "text": "Corinthians",
+        "blockClass": "menuheader",
+        "activeClassName": "activeheader"
+      }
+    }
+  },
+  "menu-item#palmeiras": {
+    "props": {
+      "id": "menu-item-palmeiras",
+      "itemProps": {
+        "type": "internal",
+        "href": "/{brandId}",
+        "tagTitle": "Palmeiras",
+        "text": "Palmeiras",
+        "blockClass": "menuheader",
+        "activeClassName": "activeheader"
+      }
+    }
+  },
+  "menu-item#signos": {
+    "props": {
+      "id": "menu-item-signos",
+      "itemProps": {
+        "type": "internal",
+        "href": "/{department}",
+        "tagTitle": "Signos",
+        "text": "Signos",
+        "blockClass": "menuheader",
+        "activeClassName": "activeheader"
+      }
+    }
+  },
+  "menu-item#divertidos": {
+    "props": {
+      "id": "menu-item-divertidos",
+      "itemProps": {
+        "type": "internal",
+        "href": "/{department}",
+        "tagTitle": "Divertidos",
+        "text": "Divertidos",
+        "blockClass": "menuheader",
+        "activeClassName": "activeheader"
+      }
+    }
+  },
+  "menu-item#7maravilhas": {
+    "props": {
+      "id": "menu-item-7maravilhas",
+      "itemProps": {
+        "type": "internal",
+        "href": "/{department}",
+        "tagTitle": "7 Maravilhas",
+        "text": "7 Maravilhas",
+        "blockClass": "menuheader",
+        "activeClassName": "activeheader"
+      }
+    }
+  },
+  "menu-item#guerreiros": {
+    "props": {
+      "id": "menu-item-guerreiros",
+      "itemProps": {
+        "type": "internal",
+        "href": "/{department}",
+        "tagTitle": "Guerreiros",
+        "text": "Guerreiros",
+        "blockClass": "menuheader",
+        "activeClassName": "activeheader"
+      }
+    }
+  },
+  "menu-item#album1": {
+    "props": {
+      "id": "menu-item-album1",
+      "itemProps": {
+        "type": "internal",
+        "href": "/{department}",
+        "tagTitle": "Album 1",
+        "text": "Album 1",
+        "blockClass": "menuheader",
+        "activeClassName": "activeheader"
+      }
+    }
+  },
+  "menu-item#album2": {
+    "props": {
+      "id": "menu-item-album2",
+      "itemProps": {
+        "type": "internal",
+        "href": "/{department}",
+        "tagTitle": "Album 2",
+        "text": "Album 2",
+        "blockClass": "menuheader",
+        "activeClassName": "activeheader"
+      }
+    }
+  },
+  "menu-item#album3": {
+    "props": {
+      "id": "menu-item-album3",
+      "itemProps": {
+        "type": "internal",
+        "href": "/{department}",
+        "tagTitle": "Album 3",
+        "text": "Album 3",
+        "blockClass": "menuheader",
+        "activeClassName": "activeheader"
+      }
+    }
+  }
+}

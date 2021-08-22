@@ -1,0 +1,20 @@
+.star--filled {
+  color: #FFB100;
+}
+
+.star--empty {
+  color: #FFB100;
+}
+.summaryTotalReviews{
+  color: #fff;
+}
+.reviewsHeading{
+  color: #fff;
+}
+.loginLink{
+  color: #59ff00;
+}
+.reviewCommentsContainer{
+  color:#fff;
+  margin-bottom: 50px;
+}
